@@ -18,4 +18,6 @@ console.log(fullName);
 
 const userName = prompt("Введіть ваше ім'я");
 const payment = 300;
-console.log(alert('Дякуємо, ' + userName + '! До оплати ' + payment + ' гривень'))
+const message = 'Дякуємо, ' + userName + '! До оплати ' + payment + ' гривень';
+const okey = alert(message)
+console.log(message)
